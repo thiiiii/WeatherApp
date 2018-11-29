@@ -95,10 +95,10 @@ function getCityName(){
 
 function getWeatherByCityName(city, callback){
     // Combine data 
-    var apiRequest1 = fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=af081727ae6d5c4cbe2cd266b726e632`).then(result => {
+    var apiRequest1 = fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=af081727ae6d5c4cbe2cd266b726e632`).then(result => {
         return result.json()
     });
-    var apiRequest2 = fetch(`http://api.worldweatheronline.com/premium/v1/weather.ashx?key=a5bf94fc16c84928acb114156182311&q=${city}&num_of_days=1&tp=24&format=json`).then(result => {
+    var apiRequest2 = fetch(`https://api.worldweatheronline.com/premium/v1/weather.ashx?key=a5bf94fc16c84928acb114156182311&q=${city}&num_of_days=1&tp=24&format=json`).then(result => {
         return result.json()
     });
     
