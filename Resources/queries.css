@@ -1,0 +1,22 @@
+
+@media only screen and (max-width:767px){
+    
+    #submitCity {
+        margin-top: 10px;
+    }
+    
+@media only screen and (max-width:480px){
+    
+
+    
+    .weatherInDetail{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    
+    #showWeather {
+    }
+}
+
+#showWeather{}
+

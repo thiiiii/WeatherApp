@@ -1,0 +1,289 @@
+/*Color BLUE #3c40c6*/
+/* ------------------------------------ */
+/* BASIC SETUP */
+/* ------------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    background-color: #fff;
+    color: #555555;
+    font-family: "Roboto","Playfair-Display";
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+}
+
+
+/* ------ CLEAR FLOAT -------- */
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ----------------------------------- */
+/* REUSABLE COMPONENT */
+/* ----------------------------------- */
+
+.row {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* ----------------------------------- */
+/* HEADINGS */
+/* ----------------------------------- */
+
+h1 {
+    color: #4aa1f3;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 350%;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0px;
+}
+
+h2 {
+    color: #2b2e93;
+    font-size: 200%;
+    text-align: center;
+    font-weight: 100;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #0d6eca;
+}
+/* ------------ */ 
+body{
+    font-family: 'Tangerine', serif;
+    background-color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_bar{
+    margin-bottom: 0px;
+    padding: 0;
+    background-color: white;
+    border: none;
+}
+
+.weather{
+    color: #4aa1f3 !important;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#nav_list > li > a{
+    color: #4aa1f3 !important;
+    font-weight: 500;
+}
+
+#logo{
+    max-height: 42px;
+    margin-right: 8px;
+    display: inline-block;
+    margin-top: -15px;
+}
+
+#headRow{
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#colHeadText1{
+    color: white;
+    padding-top: 30px;
+    font-size: 45px;
+}
+
+#colHeadText2{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+ul#list_item{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+#cityDiv{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+input[type='text']{
+    height: 40px;
+    font-size: 20px;
+}
+
+#submitCity{
+    height: 40px;
+    font-weight: bold;
+}
+
+#errorCity{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.footer{
+    background-color: #4aa1f3;
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+}
+
+#showWeather{
+    width: 80%;
+    margin: auto;
+}
+
+table{
+    color: #333333;
+    font-family: Helvetical, Arial, sans-serif;
+}
+
+th{
+    background: #4aa1f3;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+td{
+    background: #FAFAFA;
+    text-align: center;
+    font-size: 18px;
+}
+
+#welcome-paragraph{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 12px 25px 40px 25px;
+    letter-spacing: 0.5px;
+}
+
+#rowDiv{
+    margin: auto;
+    width: 100%;
+}
+
+#colDesc h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#colDesc{
+    border: 1px solid #e7e7e7;
+    margin: 0 auto;
+    height: auto;
+}
+
+.info-icon{
+    text-align: center;
+}
+
+.info-icon i{
+    font-size: 60px;
+    margin-top: 10px;
+    color: #4aa1f3;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/* ----------------------------------- */
+/* Informing Weather Icon */
+/* ----------------------------------- */
+
+.weatherIcon {
+    height:40px;
+    width: 40px;
+    margin-bottom: 12px;
+}
+
+.detailIcon {
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.weatherGeneral{
+    text-transform: capitalize;
+}
+
+#weatherDetail{
+    margin: auto;
+    display: 10px block;
+}
+
+.weatherInDetail{
+}
+.weatherGeneral:after{
+    display:block; 
+    height: 2px;
+    background-color:#7abaf6;
+    content: " ";
+    width: 200px;
+    margin: 20px auto;
+}
+/* ----------------------------------- */
+/* White Space */
+/* ----------------------------------- */
+
+.white-space{
+    height:417px;
+}
